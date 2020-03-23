@@ -75,12 +75,20 @@ a {
 
 .text h1 {
     color: #fff;
-    font-size: 3rem;
+    font-size: 4rem;
+    margin-bottom: 16px;
     /* cursor: context-menu; */
+}
+
+.text h2 {
+    color: #fff;
+    font-size: 3rem;
 }
 
 .text p {
     letter-spacing: 3px;
+    word-spacing: 10px;
+    font-size: .8rem;
 }
 
 .text a {
@@ -122,3 +130,6 @@ a {
     width: 450px;
     margin-top: 50px;
 }
+
+
+/*  */

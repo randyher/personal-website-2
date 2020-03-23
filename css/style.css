@@ -97,6 +97,10 @@ a {
     display: inline-block;
 }
 
+.text a:hover {
+    color: #252627;
+}
+
 .text a::before {
     content: '';
     background-color: white;
@@ -109,4 +113,12 @@ a {
     height: 0%;
 }
 
+.text a:hover::before {
+    height: 100%;
 
+}
+
+.profile-image img {
+    width: 450px;
+    margin-top: 50px;
+}

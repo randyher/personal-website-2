@@ -91,7 +91,7 @@ a {
     font-size: .8rem;
 }
 
-.text a {
+.text .contact-button a {
     padding: 12px 25px;
     background-color: none;
     border: 3px solid white;
@@ -105,11 +105,11 @@ a {
     display: inline-block;
 }
 
-.text a:hover {
+.text .contact-button a:hover {
     color: #252627;
 }
 
-.text a::before {
+.text  .contact-button a::before {
     content: '';
     background-color: white;
     position: absolute;
@@ -121,15 +121,38 @@ a {
     height: 0%;
 }
 
-.text a:hover::before {
+.text .contact-button a:hover::before {
     height: 100%;
 
 }
 
-.profile-image img {
-    width: 450px;
-    margin-top: 50px;
+.icon-container {
+    display: flex;
+    justify-content: left;
+    flex-direction: row wrap;
+    margin-top: 8px;
+  }
+
+.icon-container hr {
+    margin-top: 4rem;
+    width: 100%;
+    justify-content: left;
+    margin-left: 0;
+    margin-right: 0;
+    height: 0rem;
+    border-color:rgb(36, 34, 34);
+
+    
 }
 
+.icon-container img {
+    width: 3em;
+    height: 3em;
+    margin: .5em;
+    margin-top: 8rem;
+    margin-left: 1rem;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
-/*  */
+/* About */
